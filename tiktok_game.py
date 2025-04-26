@@ -8,7 +8,7 @@ current_video = None
 current_answer = None
 liked_videos = []
 used_videos = set()
-MS_TOKEN = "bYsthwueaX4WJz_M6HHVU4plcOBrgnNeAhPmrdtgGefS2JrtwP8WEJ5O-GXKQ6yCsk3HgoiUeq3-zfFF1buNpJP4SSQiuKDGQ8I39-U-PHhfN1xcJtmpr1uTNwDjf9sk07L2CKT_6UqECJ_BgU3fmVBX"
+MS_TOKEN = ""
 
 async def fetch_user_likes(username: str) -> List[dict]:
     async with TikTokApi() as api:
